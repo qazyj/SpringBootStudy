@@ -11,7 +11,7 @@ import static org.hamcrest.Matchers.is;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(value = "value=test", properties = {"property.value=propertyTest"}, classes = {SpringBootTestApplication.class}, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class SpringBootTestApplicationTests {
+public class                                                 SpringBootTestApplicationTests {
 
 	@Value("${value}")
 	private String value;
