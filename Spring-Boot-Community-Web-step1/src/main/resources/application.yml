@@ -30,8 +30,8 @@ facebook :
 
 google :
   client :
-    clientId : 581794466953-iic5ioq1k42kmo6s90a1acdvf401bfam.apps.googleusercontent.com
-    clientSecret: kL26C40KyUGQSoX0I75uZoRl
+    clientId :
+    clientSecret:
     accessTokenUri: https://accounts.google.com/o/oauth2/token
     userAuthorizationUri: https://accounts.google.com/o/oauth2/auth
     scope: email, profile

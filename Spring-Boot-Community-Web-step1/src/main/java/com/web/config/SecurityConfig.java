@@ -36,6 +36,7 @@ import static com.web.domain.enums.SocialType.KAKAO;
 /**
  * Created by KimYJ on 2017-09-12.
  */
+
 @Configuration
 @EnableWebSecurity
 @EnableOAuth2Client
