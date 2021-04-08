@@ -8,6 +8,7 @@ buildscript {
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
     }
+
 }
 
 subprojects {
@@ -36,6 +37,7 @@ subprojects {
         compileOnly('org.projectlombok:lombok')
         testCompile('org.springframework.boot:spring-boot-starter-test')
         testCompile('org.springframework.security:spring-security-test')
+
     }
 }
 
